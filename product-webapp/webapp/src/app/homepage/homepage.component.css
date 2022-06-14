@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.mainmenu{  
+    background-color: rgb(218, 218, 51);
+    padding: 15px;
+    background: linear-gradient(3deg, #67ee0d 0%, #111212 80%);
+    
+
+
+}
+
+
+.carousel img {
+    width: 100%;
+    height: 500px;
+}
+.button{
+    
+    display: flex;
+    justify-content:space-evenly;
+    padding: 0 5%; 
+}
+.button button{
+    margin: 7px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    /* border-radius: 10px; */
+    background-color: rgb(26, 236, 26);
+    font-size:  17px;
+
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+.button :hover
+{
+color: black;
+}
+a :hover img
+{
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.home-kitchen a :hover{
+    transform: scale(1.15);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.cart-mainimg a :hover{
+    transform: scale(1.15);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  
+}
+.banner
+{
+    background-image: url('../../assets/grocery-1232944_1280.jpg');
+    height: 68%;
+    background-position: center;
+    background-size: cover top;
+    background-size: cover bottom;
+    height: 500px;
+}
+
+.content-title{
+     font-size: 20px;
+     text-align:center;
+     border-bottom: 1px solid green; 
+     padding-top: 20px; 
+     font-weight: 200px;
+}
+.banner h1{
+    
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 430px;
+    text-align: center;
+}
+.content{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.cart-mainimg{  
+    width: 550px;
+    height: 430px;
+
+}
+.cart-mainimg img{
+    margin-left: 20px;
+    height: 370px;
+    width: 480px;
+}
+
+mat-card{
+    width: 250px;
+    height: 210px;
+    margin: 10px;
+}
+.card-img{
+    height: 180px;
+    width: 220px;
+}
+.sub-img
+{
+display: flex;
+}
+.features{
+    display: flex;
+   
+    padding-top: 30px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.f-title{
+    margin-top: 10px;
+}
+.f-card{
+    text-align: center;
+    padding: 10px;
+}
+
+.f-img{
+    height: 5rem;
+}
+
+.categaryimg{
+    width: 95%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home-kitchen{
+ padding-left: 0px;
+}
+.home-kitchen img{
+    width: 11rem;
+    margin: 8px;
+    padding: 5px;
+    border: 1px;
+    box-shadow: 1px 1px 1px 1px rgba(194, 191, 191, 0.75); 
+    color: white;
+}
+
+.footer{
+    background-color: rgb(0,128,128);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.list a{
+    color: white;
+    border: 0px;
+    padding: 15px;
+    text-decoration: none;
+}
+.list li{
+    display: inline-block;
+    padding-top: 20px;
+} 
+.brand{
+    width: 150px;
+    height: 110px;
+    margin: 10px;  
+}
+.footer li :hover{
+    color: black;
+}
+
+  /* ievuevwuevevnwejvnwnv[oiv] */

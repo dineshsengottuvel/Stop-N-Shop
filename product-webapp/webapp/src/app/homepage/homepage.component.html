@@ -1,0 +1,190 @@
+
+
+  <div class="mainmenu">
+    <div class="menu " style="display: flex;justify-content: space-between;margin-left:3%;">
+        <div style="display: flex;align-items: center;">
+          <img style="height: 4rem;border-radius: 2rem;width:4rem;padding: auto;" src="./assets/appLogo.png">
+          <h1 style="display: flex;align-items: center;font-family: 'Kaushan Script', cursive;;color: rgb(252, 249, 249);
+          padding-left: 2rem;margin-top: 1rem;font-weight:1000;font-size:36px;">STOP-N-SHOP</h1>
+        </div>
+      <div class="button">
+        <button mat-raised-button color="primary" type="button" ><a routerLink="/verify">Register</a> </button>
+     
+        <button mat-raised-button  type="button"> <a style="padding: 0px 5px 3px 5px ;" routerLink="/login">Login</a></button>
+      </div>    
+    </div>
+  </div>       
+  
+  <div >
+    
+    <owl-carousel-o  [options]="customOptions">
+      <ng-template carouselSlide>
+        <img style="height: 450px; " src="../../assets/home06.jpg" alt="">
+      </ng-template>  
+      <ng-template carouselSlide>
+        <img style="height: 450px;" src="../../assets/home02.jpg" alt="">
+      </ng-template>  
+      <ng-template carouselSlide>
+        <img style="height: 450px;" src="../../assets/home03.jpg" alt="">
+      </ng-template>
+      <ng-template carouselSlide>
+        <img style="height: 450px;" src="../../assets/home01.jpg" alt="">
+      </ng-template> 
+      <ng-template carouselSlide>
+        <img style="height: 450px;" src="../../assets/home05.jpg" alt="">
+      </ng-template>   
+      
+    </owl-carousel-o>
+    
+  </div>
+  
+  <div class="content">
+
+    <div class="features">
+      <div class="f-card">
+          <img class="f-img" src="../../assets/time.png" alt="">
+          <h3 class="f-title">
+            <strong>Order Anytime Before 11pm & get by 7am</strong> 
+          </h3>
+          <p>Order from our range of 3000+ products anytime before 11 pm, and we will deliver by 7 am the next day</p>
+      </div>
+
+      <div class="f-card">
+        <img class="f-img" src="../../assets/order.png" alt="">
+        <h3 class="f-title">
+          <strong>No Minimum Order</strong> 
+        </h3>
+        <p>Whether you need a pack of curd, or an apple, we will deliver to your doorstep.</p>
+      </div>
+
+      <div class="f-card">
+        <img class="f-img"  src="../../assets/fresh.png" alt="">
+        <h3 class="f-title">
+          <strong> Buy Fresh, Eat Fresh</strong>
+        </h3>
+        <p>Buying fresh isn't always eating fresh.Order only what you need & we will deliver it fresh daily!</p>
+      </div>
+
+      <div class="f-card">
+        <img class="f-img" src="../../assets/scooter.png" alt="">
+        <h3 class="f-title">
+          <strong> Live Life on Auto-Pilot!</strong>
+        </h3>
+        <p>Need apples today but curd day after? Just subscribe & schedule your deliveries, we'll deliver it to you by 7 am.</p>
+      </div>
+  
+    </div>
+
+    
+    
+    <div style="background-color: rgb(255, 232, 232);">
+      <h3 class="content-title" ><strong> Top Offers</strong> </h3>
+      <div style="width:10% ; display:flex; padding-left: 70px; padding-top: 20px; padding-bottom: 20px; ">
+        <a href="#"> <mat-card><img class="card-img" src="../../assets/deals-of-the-week.webp" alt=""></mat-card></a>
+        <a href="#"> <mat-card><img class="card-img" src="../../assets/combos-topoffers.webp" alt=""></mat-card></a>
+        <a href="#"> <mat-card><img class="card-img" src="../../assets/the -30cron.webp" alt=""></mat-card></a>
+        <a href="#"><mat-card><img  class="card-img" src="../../assets/big-packs-topoffers.webp" alt=""></mat-card></a>
+      </div> 
+    </div>
+    
+      
+    <div >
+      <h2 style="text-align:center; margin-top : 20px; "><strong> STORE CATEGORIES</strong></h2>
+    </div>
+
+    <div style="background-color: rgb(225, 255, 225);">
+        
+      <h3 class="content-title"><b>Fruits and Vegetables</b> </h3>
+      <div style="padding-left: 30px; padding-top: 20px; padding-bottom: 20px;" class="categaryimg">
+        <div >
+          <a href="#"><mat-card class="cart-mainimg"> <img style="padding-top:30px ;" src="../../assets/watermelon.webp" alt=""></mat-card></a>
+        </div>
+        <div style="display: flex;">
+          <div>
+            <a href="#"><mat-card> <img class="card-img" src="../../assets/mongo.webp" alt=""> </mat-card></a>
+            <a href="#"><mat-card><img class="card-img" src="../../assets/cuccumber.webp" alt=""> </mat-card></a>
+          </div>
+          <div>
+            <a href="#"><mat-card> <img  class="card-img"src="../../assets/coconut.webp" alt=""> </mat-card></a>
+            <a href="#"> <mat-card> <img class="card-img" src="../../assets/bellpepper.webp" alt=""></mat-card></a>
+          </div>
+        </div>  
+      </div>
+    </div>
+
+    <div style="background-color: rgb(255, 235, 180);">
+        
+      <h3 class="content-title"> <b>Snacks Store</b>  </h3>
+      <div style="width:10% ; display:flex; padding-top: 20px; padding-bottom: 20px; padding-left: 70px;">
+        <a href="#"> <mat-card><img class="card-img" src="../../assets/namkeens-snacks.webp" alt=""></mat-card></a>
+        <a href="#"> <mat-card><img class="card-img" src="../../assets/namkeens-snacks.webp" alt=""></mat-card></a>
+        <a href="#"> <mat-card><img class="card-img" src="../../assets/soups.webp" alt=""></mat-card></a>
+        <a href="#"><mat-card><img  class="card-img"src="../../assets/biscuits.webp" alt=""></mat-card></a>
+    
+      </div>
+    </div>
+    
+    <div style="background-color: rgb(199, 247, 232);">
+      <h3 class="content-title" > <b>Beverages</b> </h3>
+      <div style="border: 1px;   padding-bottom: 20px; padding-top: 20px;" class="categaryimg">
+        
+        <div >
+          <a href="#"><mat-card class="cart-mainimg"> <img  src="../../assets/soft-deinks.webp" alt=""></mat-card></a>
+
+        </div>
+        <div style="display: flex;">
+          <div>
+            <a href="#">  <mat-card> <img class="card-img" src="../../assets/energy-drinks.webp" alt=""> </mat-card></a>
+            <a href="#"> <mat-card><img class="card-img" src="../../assets/coconut-water.webp" alt=""> </mat-card></a>
+          </div>
+          <div>
+            <a href="#"> <mat-card> <img  class="card-img" src="../../assets/juices.webp" alt=""> </mat-card></a>
+            <a href="#">  <mat-card> <img class="card-img" src="../../assets/syrups-beverages.webp" alt=""></mat-card></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="background-color: rgb(228, 214, 238);">
+      <h3 class="content-title" ><b> Home and Kitchen</b> </h3>
+      <div class="home-kitchen" >
+        <a href="#"><img src="../../assets/h1.webp" alt=""></a>
+        <a href="#"> <img src="../../assets/h2.webp" alt=""></a>
+        <a href="#"> <img src="../../assets/h3.webp" alt=""></a>
+        <a href="#"> <img src="../../assets/h4.webp" alt=""></a>
+        <a href="#"> <img src="../../assets/h5.webp" alt=""></a>
+        <a href="#"> <img src="../../assets/h6.webp" alt=""></a>
+      </div> 
+    </div>
+
+    <div >
+      <h3 class="content-title" ><b> Brand Store</b> </h3>
+        <div class="home-kitchen" >
+            <!-- <mat-card class="brand"> <img src="../../assets/amul-brand.webp" alt=""></mat-card> -->
+            <a href="#"><img src="../../assets/amul-brand.webp" alt=""></a>
+            <a href="#"><img src="../../assets/coco-cola-brand.webp" alt=""></a>
+            <a href="#"><img src="../../assets/loreal-brand.webp" alt=""></a>
+            <a href="#"><img src="../../assets/india-gate-brand.webp" alt=""></a>
+            <a href="#"><img style="height: 143px;" src="../../assets/goodday.png" alt=""></a>
+            <a href="#"><img src="../../assets/dettol-brand.webp" alt=""> </a> 
+        </div>    
+    </div> 
+
+  </div>
+
+
+  <div class="footer">
+      <ul  class="list">
+            <li><a  href="#">Home</a></li>
+            <li><a href="">|</a></li>
+            <li><a  href="#">Service</a></li>
+            <li><a href="">|</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="">|</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="">|</a></li>
+            <li><a  href="#">TERMS & CONDITIONS</a></li>
+        </ul> 
+  </div>
+
+
